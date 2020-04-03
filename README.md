@@ -1,6 +1,6 @@
-# flutter_app_pokedev1
+# POKEDEX VERSION 1.0
 
-A new Flutter application.
+Aplicación de pokemones mediante el uso de formatos JSON.
 
 ## Getting Started
 
