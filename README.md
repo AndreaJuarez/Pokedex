@@ -1,6 +1,6 @@
 # flutter_app_pokedev1
 
-A new Flutter application.
+Hasta el día de hoy, 26/04/2020 la aplicación esta funcionando con JSON para implementación de los datos de pokemones. Y reconocimiento de imagenes con ayuda de Teachable Machine.
 
 ## Getting Started
 
