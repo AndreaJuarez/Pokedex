@@ -87,7 +87,7 @@ class PokeDetail extends StatelessWidget {
                                           fontSize: 14.0,
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white)),
-                                  backgroundColor: Colors.purpleAccent,
+                                  backgroundColor: Colors.green[500],
                                   onSelected: (b) {
                                     print(b);
                                     print(t);
@@ -121,7 +121,7 @@ class PokeDetail extends StatelessWidget {
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white),
                                   ),
-                                  backgroundColor: Colors.redAccent[100],
+                                  backgroundColor: Colors.blue[900],
                                   onSelected: (b) {
                                     print(b);
                                     print(t);
@@ -157,13 +157,13 @@ class PokeDetail extends StatelessWidget {
                               : pokemon.prevEvolution
                               .map((n) =>
                               FilterChip(
-                                backgroundColor: Colors.blueAccent,
+                                backgroundColor: Colors.cyan[500],
                                 label: Text(
                                   n.name,
                                   style: TextStyle(
                                       fontSize: 14.0,
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.black),
+                                      color: Colors.white),
                                 ),
                                 onSelected: (b) {},
                               ))
@@ -194,7 +194,7 @@ class PokeDetail extends StatelessWidget {
                               : pokemon.nextEvolution
                               .map((n) =>
                               FilterChip(
-                                backgroundColor: Colors.lightGreen,
+                                backgroundColor: Colors.grey[700],
                                 label: Text(
                                   n.name,
                                   style: TextStyle(fontSize: 14.0,
@@ -223,11 +223,11 @@ class PokeDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      backgroundColor: Colors.deepPurple[400],
+      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         centerTitle: true,
         automaticallyImplyLeading: false,
-        backgroundColor: Colors.deepPurpleAccent[100],
+        backgroundColor: Colors.blue[800],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

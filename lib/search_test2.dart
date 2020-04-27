@@ -87,7 +87,7 @@ class _myHomePageState extends State<homePages> {
         )
             : Text("Pokemon"),
         centerTitle: true,
-        backgroundColor: Colors.deepPurpleAccent[100],
+        backgroundColor: Colors.blue[800],
       ),
       body: pokeHub == null
           ? Center(
@@ -118,10 +118,10 @@ class _myHomePageState extends State<homePages> {
                   tag: poke.img,
                   child: Container(
                     child: Card(
-                      color: Colors.deepPurple[300],
+                      color: Colors.grey[300],
                       shape: RoundedRectangleBorder(
                           borderRadius:
-                          BorderRadius.circular(100.0)),
+                          BorderRadius.circular(30.0)),
                       elevation: 3.0,
                       child: Container(
                         color: Colors.transparent,
